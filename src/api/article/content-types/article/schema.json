@@ -49,12 +49,6 @@
       "relation": "manyToOne",
       "target": "api::writer.writer",
       "inversedBy": "articles"
-    },
-    "comment": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::comment.comment",
-      "inversedBy": "articles"
     }
   }
 }
